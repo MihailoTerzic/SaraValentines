@@ -17,7 +17,7 @@ const { progress} = useProgress()
         >
             <span className='canvas-loader'>
                 <p style={{fontSize: 14, color: '#F1F1F1'}}>
-                    {progress !== 0 ? `progress.toFixed(2)%` : 
+                    {progress !== 0 ? `${progress.toFixed(2)}%` : 
                     'Loading...'}
                 </p>
             </span>
